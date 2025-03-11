@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+  },
+  "files": ["index.ts"],
+  "exclude": ["node_modules"]
+}
