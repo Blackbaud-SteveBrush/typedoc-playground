@@ -1,3 +1,5 @@
-export type Foo = (() => boolean)|string;
-
-export type Bar = (() => boolean)[];
+export interface Foo {
+  data: {
+    [key: string]: any;
+  }
+}

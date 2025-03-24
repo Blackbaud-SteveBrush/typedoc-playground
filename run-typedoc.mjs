@@ -15,7 +15,9 @@ const app = await Application.bootstrapWithPlugins({
 });
 
 const projectRefl = await app.convert();
+const indexSignature = projectRefl.children[0].children[0].children[0];
 
-for (const child of projectRefl.children[0].children) {
-  console.log('Type:', child.type?.toString())
-}
+console.log(
+  `Type for "${indexSignature.escapedName}":`,
+  indexSignature.type.toString(),
+);

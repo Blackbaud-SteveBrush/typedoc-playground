@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./run-typedoc.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typedoc": "0.28.0-beta.2"
+    "typedoc": "0.28.1"
   }
 }
